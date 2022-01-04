@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tugas 19</title>
+	<style type="text/css">
+		input:focus {
+			outline: none;
+			border: 2px solid skyblue;
+		}
+		p{
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulir Biodata Diri</h1>
+	<hr>
+	<form>
+		<label>Nama : <input type="Text"></label>
+		<hr>
+		<label>Pas Foto : <input type="file" accept="image/*"></label>
+		<hr>
+		<!-- Radio -->
+		<p>Jenis Kelamin : </p>
+		<label for="Pria"><input type="radio" name="gender">Pria</label>
+		<label for="Wanita"><input type="radio" name="gender">Wanita</label>
+		<hr>
+		<!-- Checkbox -->
+		<p>Hobi : </p>
+		<p><input type="checkbox" name="bola">Sepak Bola</p> 
+		<p><input type="checkbox" name="bultang">Bulu Tangkis</p>
+		<p><input type="checkbox" name="baca">Membaca Buku</p>
+		<hr>
+	</form>
+	
+</body>
+</html>
